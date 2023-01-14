@@ -162,7 +162,7 @@ public class CropViewController: UIViewController {
         modalPresentationStyle = .fullScreen
         navigationController?.modalPresentationStyle = .fullScreen
 #endif
-        view.backgroundColor = .black
+        view.backgroundColor = .red
         
         createCropView()
         createCropToolbar()
