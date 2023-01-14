@@ -41,8 +41,6 @@ public enum CropMaskVisualEffectType {
     case blurDark
     case dark
     case light
-    case gray5
-    case gray6
     case none
 }
 

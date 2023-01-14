@@ -52,10 +52,6 @@ class CropMaskVisualEffectView: UIVisualEffectView, CropMaskProtocol {
             return (nil, UIColor.gray.withAlphaComponent(0.25))
         case .none:
             return (nil, .systemBackground)
-        case .gray5:
-            return (nil, .systemGray5)
-        case .gray6:
-            return (nil, .systemGray6)
         }
     }
     
