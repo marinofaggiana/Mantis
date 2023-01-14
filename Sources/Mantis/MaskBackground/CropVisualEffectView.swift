@@ -47,9 +47,9 @@ class CropMaskVisualEffectView: UIVisualEffectView, CropMaskProtocol {
         case .blurDark:
             return (UIBlurEffect(style: .dark), .clear)
         case .dark:
-            return (nil, UIColor.gray.withAlphaComponent(0.75))
+            return (nil, UIColor.black.withAlphaComponent(0.75))
         case .light:
-            return (nil, UIColor.gray.withAlphaComponent(0.15))
+            return (nil, UIColor.gray.withAlphaComponent(0.25))
         case .none:
             return (nil, .gray)
         }
