@@ -9,8 +9,8 @@
 import UIKit
 
 class CropOverlayView: UIView {
-    private var boarderNormalColor = UIColor.red
-    private var boarderHintColor = UIColor.red
+    private var boarderNormalColor = UIColor.gray
+    private var boarderHintColor = UIColor.gray
     private var hintLine = UIView()
     private var tappedEdge: CropViewOverlayEdge = .none
     
