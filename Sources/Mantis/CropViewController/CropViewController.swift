@@ -54,6 +54,7 @@ public class CropViewController: UIViewController {
     }
     
     public weak var delegate: CropViewControllerDelegate?
+    public var backgroundColor: UIColor = .black
     public var config = Mantis.Config()
     
     private var orientation: UIInterfaceOrientation = .unknown
@@ -162,7 +163,7 @@ public class CropViewController: UIViewController {
         modalPresentationStyle = .fullScreen
         navigationController?.modalPresentationStyle = .fullScreen
 #endif
-        view.backgroundColor = .red
+        view.backgroundColor = backgroundColor
         
         createCropView()
         createCropToolbar()
