@@ -42,6 +42,7 @@ public enum CropMaskVisualEffectType {
     case dark
     case light
     case none
+    case white
 }
 
 public enum CropShapeType {
